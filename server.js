@@ -1,11 +1,14 @@
 const Hapi = require('hapi');
 const Config = require('./config');
 const Models = require('./lib/models/');
+const Routes = require('./lib/routes');
 
 const server = Hapi.Server({
   host: 'localhost',
   port: Config.port,
 });
+
+server.route(Routes);
 
 const start = async () => {
   try {
