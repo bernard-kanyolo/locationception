@@ -1,0 +1,27 @@
+{
+  "name": "locationception",
+  "version": "1.0.0",
+  "description": "locationception",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernard-kanyolo/locationception.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernard-kanyolo/locationception/issues"
+  },
+  "homepage": "https://github.com/bernard-kanyolo/locationception#readme",
+  "dependencies": {
+    "hapi": "^17.2.0",
+    "sequelize": "^4.28.6",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "^2.2.1"
+  }
+}
